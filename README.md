@@ -16,7 +16,7 @@ Admin Dashboard, and securely log out.
 - Navigation that changes based on authentication status
 
 ## Login Credentials
-Username: admin
+Username: admin  
 Password: Password123!
 
 These credentials are for demonstration purposes only.
