@@ -1,0 +1,20 @@
+﻿@page
+@model AuthDemo.Pages.Admin.IndexModel
+
+@{
+    ViewData["Title"] = "Admin Dashboard";
+}
+
+<h2>Admin Dashboard</h2>
+
+<div class="alert alert-success">
+    You have successfully logged in!
+</div>
+
+<p>Welcome, @User.Identity?.Name!</p>
+
+<p>
+    This page is protected using the
+    <strong>[Authorize]</strong> attribute.
+    Only authenticated users can access it.
+</p>
